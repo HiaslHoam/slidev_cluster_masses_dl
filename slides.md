@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: /src/images/cluster.png
+background: https://pad.fs.lmu.de/uploads/159e734b-da16-4093-9c76-9139e0d6f4e7.png
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -45,10 +45,19 @@ transition: none
 
 Krippendorf et al. (2023)
 
-<div class="grid cols-1 justify-center">
-  <a href="https://arxiv.org/pdf/2305.00016.pdf" target="_blank">
-    <img src="/src/images/2305.00016-1.png" class="max-h-100 shadow-xl" />
-  </a>
+<div class="grid grid-cols-2 justify-center justify-items-center items-start">
+<div>  
+<a href="https://arxiv.org/pdf/2305.00016.pdf" target="_blank">
+  <img src="/src/images/2305.00016-1.png" class="max-h-100 shadow-xl" />
+</a>
+</div>
+<div class="mt-5 list">
+
+* Basic CNNs are capable of estimating galaxy cluster masses
+* Trained with data from eFEDS simulations
+* 7946 galaxy clusters with mass range <br/> $13 < \log{(M_{500}^{\text{true}}/M_{\odot})} < 15$ <br/> and redshift range $0.01 < z < 1.5$
+
+</div>
 </div>
 
 <style>
@@ -58,6 +67,10 @@ Krippendorf et al. (2023)
 
   a:hover {
     border-style: none !important;
+  }
+
+  .list li{
+    margin-bottom: 1.8rem !important;
   }
 </style>
 
@@ -67,47 +80,67 @@ Krippendorf et al. (2023)
 
 Krippendorf et al. (2023)
 
-<div class="grid cols-1 justify-center">
-    <img src="/src/images/baseline_architecture.png" class="max-h-80 shadow-xl" />
+<div class="grid grid-cols-2 justify-center justify-items-center items-center">
+<div>
+  <img src="/src/images/baseline_architecture.png" class="max-h-100 shadow-xl" />
+</div>
+<div class="mt-5 list ml-5">
+
+* Cluster image input 50x50 pixels with 10 frequency bands $0.25keV < \nu < 2.3keV$
+* Redshift data is added to the dense network for distance information
+* Optimized training parameters for the task
+
+</div>
 </div>
 
-
-**Trainable Parameters**: $0.3 \cdot 10^6$ 
-
 <style>
-  a {
-    border-style: none !important;
-  }
 
-  a:hover {
-    border-style: none !important;
+  .list li{
+    margin-bottom: 1.8rem !important;
   }
 </style>
 
 ---
 
 # Goals
+<div class="grid grid-cols-2 justify-center justify-items-center items-start">
 
-<div>
-<ul>
-<li class="mb-8">
-Use deep CNNs for galaxy cluster estimation
-</li>
-<li class="pb-8">
-Test different architectures
-</li>
-<li class="">
-Build a pipeline for testing architectures and further training
-</li>
-</ul>
+
+
+
+<div class="list">
+
+* Are deep neural networks capable of more accurate predictions?
+* Which deep architectures are suitable for galaxy cluster mass estimation?
+* Can we build a pipeline for efficient architecture testing and parameter optimization?
 </div>
 
+<div>
+  <img src="/src/images/4-Figure3-1.png" class="max-h-100 shadow-xl" />
+
+<p class="text-sm text-gray-400"> 
+
+VGG vs ResNet Architecture
+
+</p>
+</div>
+
+</div>
+
+<style>
+
+  .list li{
+    margin-bottom: 1.8rem !important;
+  }
+</style>
+---
+transition: none
 ---
 
 # Deep Architectures:
 
 <div class="grid grid-cols-3 justify-items-center">
-<div>
+<div class="active">
 <h2>VGG</h2>
 <br/>
 <ul>
@@ -127,7 +160,7 @@ $15 \cdot 10^6 \sim 21 \cdot 10^6$
 </li>
 </ul>
 </div>
-<div>
+<div class="not-active">
 <h2>ResNet</h2>
 <br/>
 <ul>
@@ -147,7 +180,7 @@ $32 \cdot 10^6 \sim 67 \cdot 10^6$
 </li>
 </ul>
 </div>
-<div>
+<div class="not-active">
 <h2>EfficientNet</h2>
 <br/>
 <ul>
@@ -169,8 +202,167 @@ $76 \cdot 10^6$
 
 </div>
 
+<style>
+.not-active {
+  color: #adadad;
+}
+</style>
 
 ---
+transition: none
+---
+# Deep Architectures:
+
+<div class="grid grid-cols-3 justify-items-center">
+<div class="not-active">
+<h2>VGG</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: Simonyan and Zisserman (2015)
+</li>
+<li>
+<b>Parameters</b>:
+
+$15 \cdot 10^6 \sim 21 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* One of the first successful deep CNN model
+* 16 and 19 layer model
+</li>
+</ul>
+</div>
+<div class="active">
+<h2>ResNet</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: He et al. (2016)
+</li>
+<li>
+<b>Parameters</b>:
+
+$32 \cdot 10^6 \sim 67 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* Usage of residual blocks improved accuracy massively
+* Many different layerdepths available
+</li>
+</ul>
+</div>
+<div class="not-active">
+<h2>EfficientNet</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: Tan and Le (2020)
+</li>
+<li>
+<b>Parameters</b>:
+
+$76 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* AI powered parameter and architecture optimization
+</li>
+</ul>
+</div>
+
+</div>
+
+<style>
+.not-active {
+  color: #adadad;
+}
+</style>
+
+
+
+---
+
+
+# Deep Architectures:
+
+<div class="grid grid-cols-3 justify-items-center">
+<div class="not-active">
+<h2>VGG</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: Simonyan and Zisserman (2015)
+</li>
+<li>
+<b>Parameters</b>:
+
+$15 \cdot 10^6 \sim 21 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* One of the first successful deep CNN model
+* 16 and 19 layer model
+</li>
+</ul>
+</div>
+<div class="not-active">
+<h2>ResNet</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: He et al. (2016)
+</li>
+<li>
+<b>Parameters</b>:
+
+$32 \cdot 10^6 \sim 67 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* Usage of residual blocks improved accuracy massively
+* Many different layerdepths available
+</li>
+</ul>
+</div>
+<div class="active">
+<h2>EfficientNet</h2>
+<br/>
+<ul>
+<li>
+<b>Published</b>: Tan and Le (2020)
+</li>
+<li>
+<b>Parameters</b>:
+
+$76 \cdot 10^6$
+</li>
+<li>
+<b>Features</b>:
+
+* AI powered parameter and architecture optimization
+</li>
+</ul>
+</div>
+
+</div>
+
+<style>
+.not-active {
+  color: #adadad;
+}
+</style>
+
+
+
+---
+
+
 
 # My Training Pipeline
 <div class="grid cols-1 justify-center">
