@@ -74,23 +74,10 @@ hide: false
 ---
 
 ---
+src: ./pages/pipeline.md
+hide: false
+---
 
-
-
-# My Training Pipeline
-<div class="grid grid-cols-3 justify-center">
-<div class="col-span-2">
-<img class="max-h-100 shadow-xl mt-15" src="/src/images/pipeline.png"/>
-</div>
-<div class="ml-5 list">
-
-* 1
-* 2
-* 3
-
-
-</div>
-</div>
 ---
 layout: default
 ---
