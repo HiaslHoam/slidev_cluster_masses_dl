@@ -86,10 +86,26 @@ hide: false
 ---
 
 ---
+transition: none
 src: ./pages/results_cnn_2.md
 hide: false
 ---
 
+---
+src: ./pages/results_cnn_3.md
+hide: false
+---
+
+---
+transition: none
+src: ./pages/results_vgg.md
+hide: false
+---
+
+---
+src: ./pages/results_vgg_sum.md
+hide: false
+---
 
 ---
 transition: slide-up
