@@ -27,7 +27,7 @@ Inspecting deep convolutional neural networks (CNNs) for galaxy cluster mass est
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/HiaslHoam/cluster_masses_dl_slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/HiaslHoam/slidev_cluster_masses_dl" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -104,6 +104,16 @@ hide: false
 
 ---
 src: ./pages/results_vgg_sum.md
+hide: false
+---
+
+---
+src: ./pages/results_resnet_50v2.md
+hide: false
+---
+
+---
+src: ./pages/results_resnet_152v2.md
 hide: false
 ---
 
