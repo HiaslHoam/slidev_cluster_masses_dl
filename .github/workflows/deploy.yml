@@ -33,7 +33,7 @@ jobs:
         run:  npm i -g @slidev/cli
 
       - name: Build
-        run: slidev build --base /slidev_hosting/
+        run: slidev build --base /slidev_cluster_masses_dl/
 
       - uses: actions/configure-pages@v3
 
