@@ -1,7 +1,6 @@
 name: Deploy pages
 
 on:
-  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -30,7 +29,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: slidev build --base /slidev_cluster_masses_dl/
+        run: npx slidev build --base /slidev_cluster_masses_dl/
 
       - uses: actions/configure-pages@v3
 
