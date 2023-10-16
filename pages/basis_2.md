@@ -4,7 +4,7 @@ Krippendorf et al. (2023)
 
 <div class="grid grid-cols-3 justify-center justify-items-center items-start">
 <div class="col-span-2 self-center">
-  <img src="/src/images/baseline_architecture.png" class="max-h-100 shadow-xl" />
+  <img src="/images/baseline_architecture.png" class="max-h-100 shadow-xl" />
 </div>
 <div class="list ml-5">
 

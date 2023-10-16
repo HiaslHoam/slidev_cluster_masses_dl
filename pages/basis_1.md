@@ -5,7 +5,7 @@ Krippendorf et al. (2023)
 <div class="grid grid-cols-2 justify-center justify-items-center items-start">
 <div>  
 <a href="https://arxiv.org/pdf/2305.00016.pdf" target="_blank">
-  <img src="/src/images/2305.00016-1.png" class="max-h-100 shadow-xl" />
+  <img src="/images/2305.00016-1.png" class="max-h-100 shadow-xl" />
 </a>
 </div>
 <div class="mt-5 list">

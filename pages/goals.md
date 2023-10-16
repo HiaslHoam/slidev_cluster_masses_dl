@@ -8,7 +8,7 @@
 </div>
 
 <div>
-  <img src="/src/images/4-Figure3-1.png" class="max-h-100 shadow-xl" />
+  <img src="/images/4-Figure3-1.png" class="max-h-100 shadow-xl" />
 
 <p class="text-sm text-gray-400"> 
 

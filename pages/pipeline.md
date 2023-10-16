@@ -1,7 +1,7 @@
 # My Training Pipeline
 <div class="grid grid-cols-3 justify-center">
 <div class="col-span-2 self-center">
-<img class="max-h-100 shadow-xl" src="/src/images/pipeline.png"/>
+<img class="max-h-100 shadow-xl" src="/images/pipeline.png"/>
 </div>
 <div class="ml-5 list">
 

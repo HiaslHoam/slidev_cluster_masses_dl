@@ -9,7 +9,7 @@
 </div>
 
 <div>
-  <img src="/src/images/results/vgg/training_VGG16_scatter.png" class="max-h-100 shadow-xl" />
+  <img src="/images/results/vgg/training_VGG16_scatter.png" class="max-h-100 shadow-xl" />
 
 <p class="text-sm text-gray-400"> 
 
