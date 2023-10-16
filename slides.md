@@ -78,11 +78,17 @@ src: ./pages/pipeline.md
 hide: false
 ---
 
+
 ---
-layout: default
+transition: none
+src: ./pages/results_cnn_1.md
+hide: false
 ---
 
-# Results: Baseline CNN
+---
+src: ./pages/results_cnn_2.md
+hide: false
+---
 
 
 ---
