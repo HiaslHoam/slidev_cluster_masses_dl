@@ -3,7 +3,7 @@
 <div class="grid grid-cols-2 justify-center justify-items-center items-start">
 
 <div class="opacity-100">
-<img src="/src/images/results/resnet/res152V2_history.png" class="max-h-95 shadow-lg"/>
+<img src="/src/images/results/resnet/res152v2_history.png" class="max-h-95 shadow-lg"/>
 <p class="text-gray-600 font-italic text-sm">
 Training history for ResNet152V2 after 4000 epochs
 </p>
