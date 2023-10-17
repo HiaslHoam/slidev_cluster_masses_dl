@@ -118,6 +118,22 @@ hide: false
 ---
 
 ---
+src: ./pages/results_resnet_sum.md
+hide: false
+---
+
+---
+transition: none
+src: ./pages/results_efficient.md
+hide: false
+---
+
+---
+src: ./pages/results_efficient_sum.md
+hide: false
+---
+
+---
 transition: slide-up
 level: 2
 ---
