@@ -160,7 +160,7 @@ hide: false
 
 ---
 layout: image-right
-image: /images/clusters.png
+image: https://pad.fs.lmu.de/uploads/cb7bf07f-08b2-4326-8a47-d83e086a108e.png
 src: ./pages/more.md
 hide: false
 ---
