@@ -11,7 +11,7 @@
 <div>
   <img src="/images/results/vgg/training_VGG16_scatter.png" class="max-h-100 shadow-xl" />
 
-<p class="text-sm text-gray-400"> 
+<p class="text-sm text-gray-500"> 
 
 Bad predictions from VGG16 on the training set
 

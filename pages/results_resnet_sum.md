@@ -13,7 +13,7 @@
 <div>
   <img src="/images/results/resnet/test_ResNet152V2_hist.png" class="max-h-100 shadow-xl" />
 
-<p class="text-sm text-gray-400"> 
+<p class="text-sm text-gray-500"> 
 
 ResNet152V2 was the best of all tested models with a $\sigma = 0.134$
 

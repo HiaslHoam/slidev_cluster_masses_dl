@@ -10,7 +10,7 @@
 <div>
   <img src="/images/4-Figure3-1.png" class="max-h-100 shadow-xl" />
 
-<p class="text-sm text-gray-400"> 
+<p class="text-sm text-gray-500"> 
 
 VGG vs ResNet Architecture
 
