@@ -160,7 +160,7 @@ hide: false
 
 ---
 layout: image-right
-image: ./images/clusters.png
+image: /images/clusters.png
 src: ./pages/more.md
 hide: false
 ---
