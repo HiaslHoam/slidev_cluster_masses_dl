@@ -96,7 +96,19 @@ hide: false
 ---
 
 ---
+transition: none
+src: ./pages/results_cnn_overf.md
+hide: false
+---
+
+---
+transition: none
 src: ./pages/results_cnn_3.md
+hide: false
+---
+
+---
+src: ./pages/results_cnn_4.md
 hide: false
 ---
 
@@ -107,12 +119,24 @@ hide: false
 ---
 
 ---
+transition: none
+src: ./pages/results_vgg_2.md
+hide: false
+---
+
+---
 src: ./pages/results_vgg_sum.md
 hide: false
 ---
 
 ---
+transition: none
 src: ./pages/results_resnet_50v2.md
+hide: false
+---
+
+---
+src: ./pages/results_resnet_50v2_2.md
 hide: false
 ---
 

@@ -13,7 +13,7 @@
 
 <p class="text-sm text-gray-500"> 
 
-Bad predictions from VGG16 on the training set
+Bad predictions from VGG16 on the training set. The model is not able to predict galaxy cluster masses at all.
 
 </p>
 </div>

@@ -6,6 +6,7 @@
 <div class="ml-5 list">
 
 * Out of the box only three frequency channels possible with the deep networks
+* Frequencies from $0.46keV - 1.07keV$
 * Image size must be at least 71x71 pixels
 * Random rotation to avoid possible simulation bias
 * 90%/10% train/test split to better assess the results

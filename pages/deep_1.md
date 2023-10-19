@@ -1,4 +1,4 @@
-# Deep Architectures:
+# Our Architectures Tested:
 
 <div class="grid grid-cols-4 justify-items-center">
 <div class="active">
@@ -31,7 +31,7 @@ $0.3 \cdot 10^6$
 <li>
 <b>Parameters</b>:
 
-$15 \cdot 10^6 \sim 21 \cdot 10^6$
+$15 \cdot 10^6 - 21 \cdot 10^6$
 </li>
 <li>
 <b>Features</b>:
@@ -51,7 +51,7 @@ $15 \cdot 10^6 \sim 21 \cdot 10^6$
 <li>
 <b>Parameters</b>:
 
-$32 \cdot 10^6 \sim 67 \cdot 10^6$
+$32 \cdot 10^6 - 67 \cdot 10^6$
 </li>
 <li>
 <b>Features</b>:
