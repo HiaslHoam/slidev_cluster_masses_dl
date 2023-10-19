@@ -141,7 +141,13 @@ hide: false
 ---
 
 ---
+transition: none
 src: ./pages/results_resnet_152v2.md
+hide: false
+---
+
+---
+src: ./pages/results_resnet_152v2_2.md
 hide: false
 ---
 
@@ -157,17 +163,35 @@ hide: false
 ---
 
 ---
+transition: none
+src: ./pages/results_efficient_2.md
+hide: false
+---
+
+---
 src: ./pages/results_efficient_sum.md
 hide: false
 ---
 
 ---
+transition: none
 src: ./pages/results_history.md
 hide: false
 ---
 
 ---
+src: ./pages/results_history_2.md
+hide: false
+---
+
+---
+transition: none
 src: ./pages/results_table.md
+hide: false
+---
+
+---
+src: ./pages/results_table_2.md
 hide: false
 ---
 

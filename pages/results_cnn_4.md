@@ -5,7 +5,7 @@
 <div class="opacity-100">
 <img src="/images/results/cnn/best_perf_historie.png" class="max-h-95 shadow-lg"/>
 <p class="text-gray-500 font-italic text-sm">
-Training history for the basic CNN stopped after 85 epochs
+Training history for the basic CNN stopped after 85 epochs. To avoid overfitting the training is being stopped as soon as the validation loss is increasing over a set number of epochs.
 </p>
 </div>
 <div class="grid grid-cols-2 gap-2 ml-4 opacity-100">

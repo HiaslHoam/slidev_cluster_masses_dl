@@ -5,6 +5,7 @@
 * Continue to optimize the parameters for ResNet 
 * Usage of ResNet50V2 is especially promising, because it combines accuracy and training efficiency
 * Try different input parameters (e.g. input image resolution, frequencies etc.)
+* Provide more data for the models to learn from (easy to generate)
 
 </div>
 
